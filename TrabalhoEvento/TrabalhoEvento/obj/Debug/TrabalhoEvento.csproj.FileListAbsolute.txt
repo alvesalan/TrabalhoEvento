@@ -1,0 +1,2 @@
+C:\Users\105014\Documents\GitHub\Trabalho_EventoNerd\TrabalhoEvento\TrabalhoEvento\bin\Debug\TrabalhoEvento.exe.config
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\bin\Debug\TrabalhoEvento.exe.config
