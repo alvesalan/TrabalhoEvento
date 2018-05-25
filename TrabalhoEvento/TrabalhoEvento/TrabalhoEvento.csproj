@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastroDeConvidados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroDeConvidados.Designer.cs">
+      <DependentUpon>CadastroDeConvidados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Evento Angry Nerds.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,9 @@
     <Compile Include="SistemaJogadores.Designer.cs">
       <DependentUpon>SistemaJogadores.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CadastroDeConvidados.resx">
+      <DependentUpon>CadastroDeConvidados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Evento Angry Nerds.resx">
       <DependentUpon>Evento Angry Nerds.cs</DependentUpon>
     </EmbeddedResource>
