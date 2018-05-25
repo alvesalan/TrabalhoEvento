@@ -54,9 +54,9 @@
             // btnMapa
             // 
             this.btnMapa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMapa.Location = new System.Drawing.Point(465, 451);
+            this.btnMapa.Location = new System.Drawing.Point(454, 451);
             this.btnMapa.Name = "btnMapa";
-            this.btnMapa.Size = new System.Drawing.Size(373, 36);
+            this.btnMapa.Size = new System.Drawing.Size(384, 36);
             this.btnMapa.TabIndex = 37;
             this.btnMapa.Text = "Visualizar mapa do evento";
             this.btnMapa.UseVisualStyleBackColor = true;
