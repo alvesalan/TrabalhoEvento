@@ -50,6 +50,7 @@
     <Compile Include="AlanCadastroCampeonato.Designer.cs">
       <DependentUpon>AlanCadastroCampeonato.cs</DependentUpon>
     </Compile>
+    <Compile Include="CCanpeonato.cs" />
     <Compile Include="Evento Angry Nerds.cs">
       <SubType>Form</SubType>
     </Compile>
