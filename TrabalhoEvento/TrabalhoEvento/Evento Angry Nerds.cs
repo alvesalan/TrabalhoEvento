@@ -24,8 +24,7 @@ namespace TrabalhoEvento
 
         private void btnMapa_Click(object sender, EventArgs e)
         {
-            MapaEvento mapaEvento = new MapaEvento();
-            mapaEvento.Show();
+           
         }
     }
 }
