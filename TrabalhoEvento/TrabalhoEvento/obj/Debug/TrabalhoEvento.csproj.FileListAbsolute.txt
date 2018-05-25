@@ -9,3 +9,12 @@ C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\ob
 C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.csproj.GenerateResource.Cache
 C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.exe
 C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.pdb
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.exe
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.pdb
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\bin\Debug\TrabalhoEvento.exe
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\bin\Debug\TrabalhoEvento.pdb
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.csprojResolveAssemblyReference.cache
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.Principal.resources
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.Properties.Resources.resources
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.SistemaJogadores.resources
+C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.csproj.GenerateResource.Cache
