@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            this.Button4 = new System.Windows.Forms.Button();
+            this.btnMapa = new System.Windows.Forms.Button();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Label14 = new System.Windows.Forms.Label();
             this.Label13 = new System.Windows.Forms.Label();
             this.Label12 = new System.Windows.Forms.Label();
-            this.Button3 = new System.Windows.Forms.Button();
-            this.Button2 = new System.Windows.Forms.Button();
-            this.Button1 = new System.Windows.Forms.Button();
+            this.btnSistemaConvidados = new System.Windows.Forms.Button();
+            this.btnSistemaFuncionários = new System.Windows.Forms.Button();
+            this.btnSistemaJogadores = new System.Windows.Forms.Button();
             this.Label11 = new System.Windows.Forms.Label();
             this.Label10 = new System.Windows.Forms.Label();
             this.Label9 = new System.Windows.Forms.Label();
@@ -51,23 +51,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Button4
+            // btnMapa
             // 
-            this.Button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button4.Location = new System.Drawing.Point(465, 451);
-            this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(386, 36);
-            this.Button4.TabIndex = 37;
-            this.Button4.Text = "Visualizar mapa do evento";
-            this.Button4.UseVisualStyleBackColor = true;
+            this.btnMapa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMapa.Location = new System.Drawing.Point(465, 451);
+            this.btnMapa.Name = "btnMapa";
+            this.btnMapa.Size = new System.Drawing.Size(373, 36);
+            this.btnMapa.TabIndex = 37;
+            this.btnMapa.Text = "Visualizar mapa do evento";
+            this.btnMapa.UseVisualStyleBackColor = true;
             // 
             // PictureBox1
             // 
-            this.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(37, 49);
+            this.PictureBox1.Location = new System.Drawing.Point(37, 24);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(320, 350);
+            this.PictureBox1.Size = new System.Drawing.Size(367, 375);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox1.TabIndex = 36;
             this.PictureBox1.TabStop = false;
@@ -79,7 +78,7 @@
             this.Label14.BackColor = System.Drawing.Color.Transparent;
             this.Label14.Font = new System.Drawing.Font("Square721 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label14.ForeColor = System.Drawing.Color.Red;
-            this.Label14.Location = new System.Drawing.Point(124, 450);
+            this.Label14.Location = new System.Drawing.Point(142, 442);
             this.Label14.Name = "Label14";
             this.Label14.Size = new System.Drawing.Size(114, 25);
             this.Label14.TabIndex = 35;
@@ -90,7 +89,7 @@
             this.Label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Label13.AutoSize = true;
             this.Label13.BackColor = System.Drawing.Color.Transparent;
-            this.Label13.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label13.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label13.ForeColor = System.Drawing.Color.DimGray;
             this.Label13.Location = new System.Drawing.Point(81, 426);
             this.Label13.Name = "Label13";
@@ -103,7 +102,7 @@
             this.Label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Label12.AutoSize = true;
             this.Label12.BackColor = System.Drawing.Color.Transparent;
-            this.Label12.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label12.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label12.ForeColor = System.Drawing.Color.DimGray;
             this.Label12.Location = new System.Drawing.Point(82, 410);
             this.Label12.Name = "Label12";
@@ -111,35 +110,36 @@
             this.Label12.TabIndex = 33;
             this.Label12.Text = "O maior evento nerd de Blumenau";
             // 
-            // Button3
+            // btnSistemaConvidados
             // 
-            this.Button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button3.Location = new System.Drawing.Point(580, 374);
-            this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(199, 36);
-            this.Button3.TabIndex = 32;
-            this.Button3.Text = "Sistema Convidados";
-            this.Button3.UseVisualStyleBackColor = true;
+            this.btnSistemaConvidados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSistemaConvidados.Location = new System.Drawing.Point(557, 375);
+            this.btnSistemaConvidados.Name = "btnSistemaConvidados";
+            this.btnSistemaConvidados.Size = new System.Drawing.Size(199, 36);
+            this.btnSistemaConvidados.TabIndex = 32;
+            this.btnSistemaConvidados.Text = "Sistema Convidados";
+            this.btnSistemaConvidados.UseVisualStyleBackColor = true;
             // 
-            // Button2
+            // btnSistemaFuncionários
             // 
-            this.Button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button2.Location = new System.Drawing.Point(580, 332);
-            this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(199, 36);
-            this.Button2.TabIndex = 31;
-            this.Button2.Text = "Sistema Funcionarios";
-            this.Button2.UseVisualStyleBackColor = true;
+            this.btnSistemaFuncionários.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSistemaFuncionários.Location = new System.Drawing.Point(557, 333);
+            this.btnSistemaFuncionários.Name = "btnSistemaFuncionários";
+            this.btnSistemaFuncionários.Size = new System.Drawing.Size(199, 36);
+            this.btnSistemaFuncionários.TabIndex = 31;
+            this.btnSistemaFuncionários.Text = "Sistema Funcionarios";
+            this.btnSistemaFuncionários.UseVisualStyleBackColor = true;
+            this.btnSistemaFuncionários.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // Button1
+            // btnSistemaJogadores
             // 
-            this.Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button1.Location = new System.Drawing.Point(580, 290);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(199, 36);
-            this.Button1.TabIndex = 30;
-            this.Button1.Text = "Sistema Jogadores";
-            this.Button1.UseVisualStyleBackColor = true;
+            this.btnSistemaJogadores.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSistemaJogadores.Location = new System.Drawing.Point(557, 291);
+            this.btnSistemaJogadores.Name = "btnSistemaJogadores";
+            this.btnSistemaJogadores.Size = new System.Drawing.Size(199, 36);
+            this.btnSistemaJogadores.TabIndex = 30;
+            this.btnSistemaJogadores.Text = "Sistema Jogadores";
+            this.btnSistemaJogadores.UseVisualStyleBackColor = true;
             // 
             // Label11
             // 
@@ -148,7 +148,7 @@
             this.Label11.BackColor = System.Drawing.Color.Transparent;
             this.Label11.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label11.ForeColor = System.Drawing.Color.DimGray;
-            this.Label11.Location = new System.Drawing.Point(550, 260);
+            this.Label11.Location = new System.Drawing.Point(527, 261);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(254, 16);
             this.Label11.TabIndex = 29;
@@ -159,9 +159,9 @@
             this.Label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label10.AutoSize = true;
             this.Label10.BackColor = System.Drawing.Color.Transparent;
-            this.Label10.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label10.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label10.ForeColor = System.Drawing.Color.DimGray;
-            this.Label10.Location = new System.Drawing.Point(558, 214);
+            this.Label10.Location = new System.Drawing.Point(549, 214);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(207, 16);
             this.Label10.TabIndex = 28;
@@ -172,9 +172,9 @@
             this.Label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label9.AutoSize = true;
             this.Label9.BackColor = System.Drawing.Color.Transparent;
-            this.Label9.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label9.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label9.ForeColor = System.Drawing.Color.DimGray;
-            this.Label9.Location = new System.Drawing.Point(578, 198);
+            this.Label9.Location = new System.Drawing.Point(567, 198);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(171, 16);
             this.Label9.TabIndex = 27;
@@ -185,9 +185,9 @@
             this.Label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label8.AutoSize = true;
             this.Label8.BackColor = System.Drawing.Color.Transparent;
-            this.Label8.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label8.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label8.ForeColor = System.Drawing.Color.DimGray;
-            this.Label8.Location = new System.Drawing.Point(558, 182);
+            this.Label8.Location = new System.Drawing.Point(549, 182);
             this.Label8.Name = "Label8";
             this.Label8.Size = new System.Drawing.Size(200, 16);
             this.Label8.TabIndex = 26;
@@ -200,7 +200,7 @@
             this.Label7.BackColor = System.Drawing.Color.Transparent;
             this.Label7.Font = new System.Drawing.Font("Square721 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label7.ForeColor = System.Drawing.Color.Red;
-            this.Label7.Location = new System.Drawing.Point(613, 148);
+            this.Label7.Location = new System.Drawing.Point(603, 146);
             this.Label7.Name = "Label7";
             this.Label7.Size = new System.Drawing.Size(98, 25);
             this.Label7.TabIndex = 25;
@@ -211,7 +211,7 @@
             this.Label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label6.AutoSize = true;
             this.Label6.BackColor = System.Drawing.Color.Transparent;
-            this.Label6.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label6.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label6.ForeColor = System.Drawing.Color.DimGray;
             this.Label6.Location = new System.Drawing.Point(536, 113);
             this.Label6.Name = "Label6";
@@ -224,7 +224,7 @@
             this.Label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label5.AutoSize = true;
             this.Label5.BackColor = System.Drawing.Color.Transparent;
-            this.Label5.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label5.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label5.ForeColor = System.Drawing.Color.DimGray;
             this.Label5.Location = new System.Drawing.Point(513, 97);
             this.Label5.Name = "Label5";
@@ -237,9 +237,9 @@
             this.Label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label4.AutoSize = true;
             this.Label4.BackColor = System.Drawing.Color.Transparent;
-            this.Label4.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label4.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label4.ForeColor = System.Drawing.Color.DimGray;
-            this.Label4.Location = new System.Drawing.Point(483, 81);
+            this.Label4.Location = new System.Drawing.Point(462, 81);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(388, 16);
             this.Label4.TabIndex = 22;
@@ -250,7 +250,7 @@
             this.Label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label3.AutoSize = true;
             this.Label3.BackColor = System.Drawing.Color.Transparent;
-            this.Label3.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.DimGray;
             this.Label3.Location = new System.Drawing.Point(515, 65);
             this.Label3.Name = "Label3";
@@ -263,7 +263,7 @@
             this.Label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label2.AutoSize = true;
             this.Label2.BackColor = System.Drawing.Color.Transparent;
-            this.Label2.Font = new System.Drawing.Font("Square721 BT", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Font = new System.Drawing.Font("Square721 BT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.DimGray;
             this.Label2.Location = new System.Drawing.Point(513, 49);
             this.Label2.Name = "Label2";
@@ -288,15 +288,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(909, 511);
-            this.Controls.Add(this.Button4);
+            this.Controls.Add(this.btnMapa);
             this.Controls.Add(this.PictureBox1);
             this.Controls.Add(this.Label14);
             this.Controls.Add(this.Label13);
             this.Controls.Add(this.Label12);
-            this.Controls.Add(this.Button3);
-            this.Controls.Add(this.Button2);
-            this.Controls.Add(this.Button1);
+            this.Controls.Add(this.btnSistemaConvidados);
+            this.Controls.Add(this.btnSistemaFuncionários);
+            this.Controls.Add(this.btnSistemaJogadores);
             this.Controls.Add(this.Label11);
             this.Controls.Add(this.Label10);
             this.Controls.Add(this.Label9);
@@ -318,14 +319,13 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button Button4;
+        internal System.Windows.Forms.Button btnMapa;
         internal System.Windows.Forms.PictureBox PictureBox1;
         internal System.Windows.Forms.Label Label14;
         internal System.Windows.Forms.Label Label13;
         internal System.Windows.Forms.Label Label12;
-        internal System.Windows.Forms.Button Button3;
-        internal System.Windows.Forms.Button Button2;
-        internal System.Windows.Forms.Button Button1;
+        internal System.Windows.Forms.Button btnSistemaConvidados;
+        internal System.Windows.Forms.Button btnSistemaJogadores;
         internal System.Windows.Forms.Label Label11;
         internal System.Windows.Forms.Label Label10;
         internal System.Windows.Forms.Label Label9;
@@ -337,6 +337,7 @@
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.Label Label1;
+        internal System.Windows.Forms.Button btnSistemaFuncionários;
     }
 }
 
