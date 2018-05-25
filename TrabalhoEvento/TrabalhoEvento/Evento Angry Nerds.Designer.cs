@@ -141,6 +141,7 @@
             this.btnSistemaJogadores.TabIndex = 30;
             this.btnSistemaJogadores.Text = "Sistema Jogadores";
             this.btnSistemaJogadores.UseVisualStyleBackColor = true;
+            this.btnSistemaJogadores.Click += new System.EventHandler(this.btnSistemaJogadores_Click);
             // 
             // Label11
             // 

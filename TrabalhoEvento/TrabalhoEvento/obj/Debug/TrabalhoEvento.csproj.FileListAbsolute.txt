@@ -9,6 +9,7 @@ C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\ob
 C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.csproj.GenerateResource.Cache
 C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.exe
 C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.pdb
-C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.MapaEvento.resources
 C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.exe
 C:\Users\105014\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.pdb
+C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.AlanCadastroCampeonato.resources
+C:\Users\104962\Documents\GitHub\TrabalhoEvento\TrabalhoEvento\TrabalhoEvento\obj\Debug\TrabalhoEvento.SistemaJogadores.resources

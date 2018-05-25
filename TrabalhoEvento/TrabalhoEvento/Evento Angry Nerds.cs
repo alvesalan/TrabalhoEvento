@@ -24,8 +24,13 @@ namespace TrabalhoEvento
 
         private void btnMapa_Click(object sender, EventArgs e)
         {
-            MapaEvento mapaEvento = new MapaEvento();
-            mapaEvento.Show();
+            
+        }
+
+        private void btnSistemaJogadores_Click(object sender, EventArgs e)
+        {
+            SistemaJogadores sistemaJogadores = new SistemaJogadores();
+            sistemaJogadores.Show();
         }
     }
 }
