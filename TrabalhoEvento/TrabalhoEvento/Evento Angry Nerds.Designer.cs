@@ -60,6 +60,7 @@
             this.btnMapa.TabIndex = 37;
             this.btnMapa.Text = "Visualizar mapa do evento";
             this.btnMapa.UseVisualStyleBackColor = true;
+            this.btnMapa.Click += new System.EventHandler(this.btnMapa_Click);
             // 
             // PictureBox1
             // 

@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace TrabalhoEvento
 {
-    public partial class Principal : Form
+    public partial class MapaEvento : Form
     {
-        public Principal()
+        public MapaEvento()
         {
             InitializeComponent();
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnMapa_Click(object sender, EventArgs e)
+        private void btnVoltar_Click(object sender, EventArgs e)
         {
-            MapaEvento mapaEvento = new MapaEvento();
-            mapaEvento.Show();
+            Principal paginaPrincipal = new Principal();
+            paginaPrincipal.Show();
         }
     }
 }
